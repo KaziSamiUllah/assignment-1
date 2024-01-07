@@ -1,5 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Merriweather', serif;
+}
 main{
     width: 82.5%;
-    margin:0;
-    padding: 0;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.banner{
+    background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('../resources/Banner\ Image.png');
+    border-radius: 16px;
+    padding: 177px 344px;
+    margin-top: 50px;
+}
+.banner h3{
+    color: #FFF;
+text-align: center;
+font-size: 32px;
+font-weight: 400;
+margin-bottom: 16px;
+}
+.banner h1{
+    color: #FFF;
+text-align: center;
+font-size: 72px;
+font-weight: 900;
+line-height: 95px; /* 131.944% */
+width: 632px;
 }
