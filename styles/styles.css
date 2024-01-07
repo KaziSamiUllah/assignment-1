@@ -1,7 +1,6 @@
 * {
   margin: 0;
   padding: 0;
- 
 }
 
 main {
@@ -25,7 +24,7 @@ section {
 .banner h3 {
   color: #fff;
   text-align: center;
-  font-family: "Merriweather" , serif;
+  font-family: "Merriweather", serif;
   font-size: 32px;
   font-weight: 400;
   margin-bottom: 16px;
@@ -33,7 +32,7 @@ section {
 .banner h1 {
   color: #fff;
   text-align: center;
-  font-family: "Merriweather" , serif;
+  font-family: "Merriweather", serif;
   font-size: 72px;
   font-weight: 900;
   line-height: 95px; /* 131.944% */
@@ -43,7 +42,7 @@ section {
 .second-section h1 {
   color: #f00;
   text-align: center;
-  font-family:  "Inter", sans-serif;
+  font-family: "Inter", sans-serif;
   font-size: 88px;
   font-style: normal;
   font-weight: 700;
@@ -53,91 +52,146 @@ section {
 .second-section h4 {
   color: #f00;
   text-align: center;
-  font-family:  "Inter", sans-serif;
+  font-family: "Inter", sans-serif;
   font-size: 24px;
   font-style: normal;
   font-weight: 500;
   line-height: normal;
   margin-bottom: 16px;
 }
-.second-section h3{
-    color: #070211;
-text-align: center;
-font-family:  "Inter", sans-serif;
-font-size: 48px;
-font-style: normal;
-font-weight: 700;
-line-height: normal;
-margin-bottom: 50px;
+.second-section h3 {
+  color: #070211;
+  text-align: center;
+  font-family: "Inter", sans-serif;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 50px;
 }
-.second-section img{
-    margin-left: auto;
-    margin-right: auto;
-    display: flex;
+.second-section img {
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
 }
-.section-3{
-    width: 1320px;
-    height: 600px;
-    background: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%),url(../resources/Vectorrr.png);
-    display: flex;
+.section-3 {
+  width: auto;
+  height: 600px;
+  background-image: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0) 100%),
+    url(../resources/Vectorrr.png);
+  display: flex;
+  background-size: cover;
 }
-.section-3 h1{
+.section-3 h1 {
+  color: #fff;
+  font-family: "Merriweather", serif;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 88px; /* 137.5% */
+  letter-spacing: 7.04px;
+  width: 642px;
+  margin-bottom: 24px;
+}
+.section-3 h5 {
+  color: rgba(255, 255, 255, 0.8);
+  font-family: "Inter", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px; /* 166.667% */
+  width: 679px;
+  margin-bottom: 48px;
+}
+.section-3 button {
+  color: #fff;
+  text-align: center;
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 10px;
+}
+.section-3 button:hover {
+  border-radius: 20px;
+  background-color: #ffffff38;
+}
+
+#s3-img {
+  display: flex;
+  flex-direction: column;
+  justify-content: right;
+  align-items:center;
+  margin: 56px 138px 56px auto;
+}
+
+.s3-text {
+  padding: 126px 20px 126px 126px;
+}
+
+/* Section 4 */
+.section-4 {
+  /* width: 1320px; */
+  height: 482px;
+  /* background-color: aqua; */
+  background: linear-gradient(
+    180deg,
+    rgba(255, 0, 0, 0.1) 0%,
+    rgba(255, 0, 0, 0) 100%
+  );
+  /* padding: 100px 300px 48px 385px; */
+  font-family: "Inter", sans-serif;
+}
+.section-4 p {
+  text-align: center;
+  margin: 50px;
+  width: 550;
+    height: 170px;
+  color: #070211;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 56px;
+  text-transform: capitalize;
+  padding-top: 100px;
+}
+.section-4 p span {
+  color: #f00;
+  text-align: center;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 56px; /* 175% */
+  text-transform: capitalize;
+}
+.section-4 button{
     color: #FFF;
-    font-family: "Merriweather" , serif;
-font-size: 64px;
-font-style: normal;
-font-weight: 900;
-line-height: 88px; /* 137.5% */
-letter-spacing: 7.04px;
-width: 642px;
-margin-bottom: 24px;
-}
-.section-3 h5{
-    color: rgba(255, 255, 255, 0.80);
-    font-family:  "Inter", sans-serif;
-font-size: 18px;
-font-style: normal;
-font-weight: 400;
-line-height: 30px; /* 166.667% */
-width: 679px;
-margin-bottom: 48px;
-}
-.section-3 button{
-    color: #FFF;
 text-align: center;
-font-family:  "Inter", sans-serif;
 font-size: 20px;
 font-style: normal;
 font-weight: 700;
 line-height: normal;
 text-transform: uppercase;
-background-color: transparent;
-border: none;
+
+display: inline-flex;
+padding: 16px 32px;
+justify-content: center;
+align-items: center;
+gap: 10px;
+
+border-radius: 8px;
+background: #F00;
+margin-left: 577.5px;
 cursor: pointer;
-padding: 10px;
+box-shadow: 5px 5px 20px grey;
 }
-.section-3 button:hover{
-    border-radius: 20px;
-    background-color: #ffffff38;
-
-}
-
-#s3-img{
-    display: flex;
-
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin:56px 138px 56px 0px;
-}
-    
-.s3-text{
-    padding: 126px 20px 126px 126px;
+.section-4 button:hover{
+    box-shadow: 5px 5px 10px rgba(128, 128, 128, 0.153);
+    transition: 0.2s;
 }
 
-/* Section 4 */
-.section-4{
-    width: 1320px;
-    height: 482px;
-    flex-shrink: 0;
-}
