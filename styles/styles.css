@@ -20,6 +20,7 @@ section {
   padding: 177px 344px;
   margin-top: 50px;
   background-size: cover;
+  text-shadow: 0 0 2px #ffffffa9, 0 0 20px rgba(135, 83, 255, 0.456);
 }
 .banner h3 {
   color: #fff;
@@ -42,7 +43,6 @@ section {
 .second-section h1 {
   color: #f00;
   text-align: center;
-
   font-size: 88px;
   font-style: normal;
   font-weight: 700;
@@ -131,9 +131,6 @@ section {
 }
 
 #s3-img {
-  display: flex;
-  flex-direction: column;
-  justify-content: right;
   align-items: center;
   margin: 56px 138px 56px auto;
 }
@@ -218,11 +215,6 @@ section {
   margin-top: 150px;
   margin-bottom: auto;
 }
-#s5-left h1,
-h2,
-h3 {
-  margin-bottom: 16px;
-}
 
 #s5-left h1 {
   color: #f00;
@@ -230,6 +222,7 @@ h3 {
   font-style: normal;
   font-weight: 500;
   line-height: normal;
+  margin-bottom: 16px;
 }
 #s5-left h2 {
   color: #070211;
@@ -239,6 +232,7 @@ h3 {
   font-weight: 900;
   line-height: normal;
   text-transform: capitalize;
+  margin-bottom: 22px;
 }
 #s5-left h3 {
   width: 393px;
@@ -275,7 +269,9 @@ h3 {
   line-height: 32px; /* 160% */
   margin-bottom: 43px;
 }
-
+.s6-text {
+  font-family: "Inter", sans-serif;
+}
 .s6-text h1 {
   color: #f00;
   font-size: 24px;
@@ -285,12 +281,10 @@ h3 {
   margin-bottom: 16px;
 }
 .s6-text h2 {
-  color: #070211;
-  font-family: "Merriweather" serif;
+  color: #000000;
+  font-family: "Merriweather", serif;
   font-size: 48px;
-  font-style: normal;
   font-weight: 900;
-  line-height: normal;
   text-transform: capitalize;
   margin-bottom: 22px;
 }
@@ -403,4 +397,33 @@ h3 {
 #bottom-box input[type="submit"]:active {
   background: rgb(19, 0, 0);
   transition: 0.1s;
+}
+
+footer {
+  background-color: black;
+  /* height: 609px; */
+  font-family: "Inter", sans-serif;
+  padding-left: 8.75%;
+  padding-right: 8.75%;
+
+}
+footer > div{
+  background-color: rgba(250, 235, 215, 0.203);
+}
+
+#footer-line{
+  display:flex;
+  align-content: center;
+  justify-content: space-between;
+}
+#footer-line >h1{
+  width: 375px;
+}
+footer h1{
+  background-color: rgba(0, 255, 255, 0.244);
+  color: #FFF;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 40px; /* 166.667% */
 }
