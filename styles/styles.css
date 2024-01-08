@@ -405,25 +405,42 @@ footer {
   font-family: "Inter", sans-serif;
   padding-left: 8.75%;
   padding-right: 8.75%;
-
-}
-footer > div{
-  background-color: rgba(250, 235, 215, 0.203);
+  padding-top: 70px;
 }
 
-#footer-line{
-  display:flex;
+#footer-line {
+  display: flex;
   align-content: center;
   justify-content: space-between;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
-#footer-line >h1{
+#footer-line > h4 {
   width: 375px;
 }
-footer h1{
-  background-color: rgba(0, 255, 255, 0.244);
-  color: #FFF;
+footer h4, h5 {
+  color: #fff;
   font-size: 24px;
   font-style: normal;
   font-weight: 500;
   line-height: 40px; /* 166.667% */
 }
+#footer-line > div > div {
+  display: flex;
+  height: 40px;
+}
+#mid-logos{
+  display: flex;
+  justify-content: center;
+  margin: 48px auto;
+}
+#mid-logos img{
+margin-left: 12px;
+margin-right: 12px;
+}
+hr{
+  height: 1px;
+  background-color: #d0d0d04f;
+  border: none;
+}
+
