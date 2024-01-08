@@ -2,6 +2,9 @@
   margin: 0;
   padding: 0;
 }
+a{
+  text-decoration: none;
+}
 
 main {
   width: 82.5%;
@@ -104,7 +107,7 @@ section {
   width: 679px;
   margin-bottom: 48px;
 }
-.section-3 button {
+.section-3 a {
   color: #fff;
   text-align: center;
   font-family: "Inter", sans-serif;
@@ -117,14 +120,16 @@ section {
   border: none;
   cursor: pointer;
   padding: 10px;
+  text-decoration: none;
 }
-.section-3 button:hover {
+.section-3 a:hover {
   border-radius: 20px;
   background-color: #ffffff38;
   transition: 0.2s;
+  color: rgb(255, 255, 255);
 }
 
-.section-3 button:active {
+.section-3 a:active {
   background: #ffffff;
   color: rgb(0, 0, 0);
   transition: 0.2s;
@@ -139,7 +144,7 @@ section {
   padding: 126px 20px 126px 126px;
 }
 
-/* Section 4 */
+/**************** Section 4 **********************/
 .section-4 {
   height: 482px;
   background: linear-gradient(
@@ -172,7 +177,7 @@ section {
   line-height: 56px; /* 175% */
   text-transform: capitalize;
 }
-.section-4 button {
+.section-4 button{
   color: #fff;
   text-align: center;
   font-size: 20px;
@@ -192,6 +197,8 @@ section {
   box-shadow: 5px 5px 20px grey;
   border: none;
 }
+
+
 .section-4 button:hover {
   box-shadow: 5px 5px 10px rgba(128, 128, 128, 0.153);
   transition: 0.2s;
@@ -357,7 +364,6 @@ section {
   display: flex;
   margin: 0px 336px;
   justify-content: center;
-  border-radius: 10px;
   font-family: "Inter", sans-serif;
 }
 #bottom-box input[type="email"] {
@@ -374,7 +380,7 @@ section {
   line-height: normal;
   padding-left: 30px;
 }
-#bottom-box button{
+#bottom-box button {
   width: 210px;
   height: 72px;
   border: none;
@@ -419,7 +425,8 @@ footer {
 #footer-line > h4 {
   width: 375px;
 }
-footer h4, h5 {
+footer h4,
+h5 {
   color: #fff;
   font-size: 24px;
   font-style: normal;
@@ -430,18 +437,17 @@ footer h4, h5 {
   display: flex;
   height: 40px;
 }
-#mid-logos{
+#mid-logos {
   display: flex;
   justify-content: center;
   margin: 48px auto;
 }
-#mid-logos img{
-margin-left: 12px;
-margin-right: 12px;
+#mid-logos img {
+  margin-left: 12px;
+  margin-right: 12px;
 }
-hr{
+hr {
   height: 1px;
   background-color: #d0d0d04f;
   border: none;
 }
-
