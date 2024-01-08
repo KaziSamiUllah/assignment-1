@@ -367,13 +367,14 @@ section {
   margin: 0;
   border-radius: 72px 0px 0px 72px;
   color: rgba(7, 2, 17, 0.3);
-  text-align: center;
+  text-align: left;
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
+  padding-left: 30px;
 }
-#bottom-box input[type="submit"] {
+#bottom-box button{
   width: 210px;
   height: 72px;
   border: none;
@@ -390,11 +391,11 @@ section {
   text-transform: capitalize;
   cursor: pointer;
 }
-#bottom-box input[type="submit"]:hover {
+#bottom-box button:hover {
   background: rgb(186, 0, 0);
   transition: 0.1s;
 }
-#bottom-box input[type="submit"]:active {
+#bottom-box button:active {
   background: rgb(19, 0, 0);
   transition: 0.1s;
 }
