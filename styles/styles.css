@@ -32,7 +32,7 @@ section {
 .banner h3 {
   color: #fff;
   text-align: center;
-  font-family: "Merriweather", serif;
+  font-family: 'Merriweather', serif;
   font-size: 32px;
   font-weight: 400;
   margin-bottom: 16px;
@@ -41,7 +41,7 @@ section {
 .banner h1 {
   color: #fff;
   text-align: center;
-  font-family: "Merriweather", serif;
+  font-family: 'Merriweather', serif;
   font-size: 72px;
   font-weight: 900;
   line-height: 95px;
@@ -52,6 +52,7 @@ section {
 .second-section h1 {
   color: #f00;
   text-align: center;
+  font-family: 'Inter', sans-serif;
   font-size: 88px;
   font-style: normal;
   font-weight: 700;
@@ -62,7 +63,7 @@ section {
 .second-section h4 {
   color: #f00;
   text-align: center;
-  font-family: "Inter", sans-serif;
+  font-family: 'Inter', sans-serif;
   font-size: 24px;
   font-style: normal;
   font-weight: 500;
@@ -73,7 +74,7 @@ section {
 .second-section h3 {
   color: #070211;
   text-align: center;
-  font-family: "Inter", sans-serif;
+  font-family: 'Inter', sans-serif;
   font-size: 48px;
   font-style: normal;
   font-weight: 700;
@@ -99,7 +100,7 @@ section {
 
 .section-3 h1 {
   color: #fff;
-  font-family: "Merriweather", serif;
+  font-family: 'Merriweather', serif;
   font-size: 64px;
   font-style: normal;
   font-weight: 900;
@@ -112,7 +113,7 @@ section {
 
 .section-3 h5 {
   color: rgba(255, 255, 255, 0.8);
-  font-family: "Inter", sans-serif;
+  font-family: 'Inter', sans-serif;
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
@@ -125,7 +126,7 @@ section {
 .section-3 a {
   color: #fff;
   text-align: center;
-  font-family: "Inter", sans-serif;
+  font-family: 'Inter', sans-serif;
   font-size: 20px;
   font-style: normal;
   font-weight: 700;
@@ -134,7 +135,7 @@ section {
   background-color: transparent;
   border: none;
   cursor: pointer;
-  padding: 10px;
+  /* padding: 10px; */
   text-decoration: none;
 }
 
@@ -168,7 +169,7 @@ section {
       rgba(255, 0, 0, 0.1) 0%,
       rgba(255, 0, 0, 0) 100%);
   border-radius: 20px;
-  font-family: "Inter", sans-serif;
+  font-family: 'Inter', sans-serif;
 }
 
 .section-4 p {
@@ -233,7 +234,7 @@ section {
 
 .section-5 {
   display: flex;
-  font-family: "Inter", sans-serif;
+  font-family: 'Inter', sans-serif;
   justify-content: space-between;
 }
 
@@ -254,7 +255,7 @@ section {
 
 #s5-left h2 {
   color: #070211;
-  font-family: "Merriweather", serif;
+  font-family: 'Merriweather', serif;
   font-size: 48px;
   font-style: normal;
   font-weight: 900;
@@ -305,7 +306,7 @@ section {
 }
 
 .s6-text {
-  font-family: "Inter", sans-serif;
+  font-family: 'Inter', sans-serif;
 }
 
 .s6-text h1 {
@@ -319,7 +320,7 @@ section {
 
 .s6-text h2 {
   color: #000000;
-  font-family: "Merriweather", serif;
+  font-family: 'Merriweather', serif;
   font-size: 48px;
   font-weight: 900;
   text-transform: capitalize;
@@ -334,6 +335,7 @@ section {
   line-height: 32px;
   /* 160% */
   width: 896px;
+  margin-bottom: 48px;
 }
 
 .items {
@@ -362,7 +364,7 @@ section {
   border-radius: 16px;
   background: rgba(255, 0, 0, 0.05);
   align-content: center;
-  font-family: "Inter", sans-serif;
+  font-family: 'Inter', sans-serif;
 }
 
 #top-box {
@@ -378,7 +380,6 @@ section {
 #top-box h1 {
   color: #070211;
   text-align: center;
-  font-family: "Merriweather" serif;
   font-size: 48px;
   font-style: normal;
   font-weight: 900;
@@ -404,7 +405,7 @@ section {
   display: flex;
   margin: 0px 336px;
   justify-content: center;
-  font-family: "Inter", sans-serif;
+  font-family: 'Inter', sans-serif;
 }
 
 #bottom-box input[type="email"] {
@@ -449,11 +450,11 @@ section {
   background: rgb(19, 0, 0);
   transition: 0.1s;
 }
-
+/**********************Footer********************/
 footer {
   background-color: black;
   /* height: 609px; */
-  font-family: "Inter", sans-serif;
+  font-family: 'Inter', sans-serif;
   padding-left: 8.75%;
   padding-right: 8.75%;
   padding-top: 70px;
@@ -511,7 +512,7 @@ hr {
 #photoblock{
   position: relative;
   height: 662px;
-  /* background-color: #000000; */
+  background-color: #ffffff;
 }
 
 #p1{
@@ -528,6 +529,7 @@ hr {
   right: 0;
   background-color: #f00;
   border-radius: 20px 0px 20px 20px;
+  
 }
 #p3{
   position: absolute;
@@ -539,29 +541,31 @@ hr {
   bottom: 0;
   left: 0;
   width: 796.463px;
-height: 662.07px;
+  height: 662.07px;
+
 }
 .bonus{
-  font-family: 'Inter' serif;
+  font-family: 'Inter', serif;
 }
 .bonus h3{
   color: #070211;
-  font-family: 'Inter' serif;
   font-size: 24px;
   font-style: normal;
   font-weight: 500;
   line-height: normal;
   text-align: center;
+  margin-bottom: 16px;
 }
 
 .bonus h2{
   color: #F00;
 text-align: center;
-font-family: 'Merriweather' serif;
+font-family: 'Merriweather', serif;
 font-size: 72px;
 font-style: normal;
 font-weight: 900;
 line-height: normal;
+margin-bottom: 28px;
 }
 .bonus h4{
   width: 1068px;
@@ -573,18 +577,12 @@ font-size: 20px;
 font-style: normal;
 font-weight: 500;
 line-height: 32px; /* 160% */
+margin-bottom: 64px;
 }
 .bonus span{
   color: #070211;
-font-family: 'Merriweather' serif;
 font-size: 72px;
 font-style: normal;
 font-weight: 900;
 line-height: normal;
 }
-
-
-
-
-
-
